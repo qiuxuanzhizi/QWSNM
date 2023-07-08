@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE function SYSTEM "qtfmfunction.dtd">
+<function name = "factorq" overload = "false">
+<short>Factorisation of a quaternion</short>
+<syntax>[f, g, theta] = factorq(q, mu, L)</syntax>
+<long>
+<para>
+    <code>factorq</code> factorizes a quaternion <code>q</code>,
+    using the pure quaternion <code>mu</code>, such that the vector parts
+    of the factors are orthogonal.
+</para>
+<para>
+    On return
+    <code>f</code> is a quaternion, <code>g</code> is a unit quaternion,
+    and <code>theta</code> is an angle,
+    such that <code>g = exp(mu .* theta)</code> and
+    <code>g .* f = q</code> or <code>f .* g = q</code>
+    according as to whether the third
+    parameter is specified as 'L' or 'R', respectively (the exponential
+    factor is on the left or right).
+</para>
+<para>
+    <code>f</code> will be orthogonal to <code>mu</code> and therefore also
+    to the vector part of <code>exp(mu .* theta) = mu .* sin(theta)</code>.
+</para>
+<!-->
+        Euler angles. EXPLAIN?
+<-->
+</long>
+<examples>
+<precode>
+>> q = randq
+ 
+q = -0.6461 - 0.4363 * I + 0.551 * J + 0.2976 * K
+ 
+>> mu = randv
+ 
+mu = 0.893 * I + 0.181 * J + 0.4121 * K
+ 
+>> [f, g] = factorq(q, mu, 'R')
+ 
+f = 0.6674 + 0.3212 * I - 0.4512 * J - 0.4979 * K
+
+g = -0.9681 - 0.2237 * I - 0.04535 * J - 0.1032 * K
+ 
+>> f .* g, q
+ 
+ans = -0.6461 - 0.4363 * I + 0.551 * J + 0.2976 * K
+
+q = -0.6461 - 0.4363 * I + 0.551 * J + 0.2976 * K
+ 
+>> scalar_product(f, mu)
+
+ans = 0
+</precode>
+</examples>
+</function>
+
+<!--$Id: factorq.xml 1039 2019-06-18 13:51:15Z sangwine $-->
