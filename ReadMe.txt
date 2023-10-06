@@ -1,5 +1,5 @@
 This is the code of ''Qinghua Zhang, Liangtian He, Yilun Wang, Liangjian Deng, 
-Jun Liu, Quaternion-based Schatten p-norm Minimization for Color Image Restoration with Convergence Guarantee''.
+Jun Liu, Quaternion Weighted Schatten p-norm Minimization for Color Image Restoration with Convergence Guarantee''.
 
 Run main.m to test our proposed algorithm. 
 
