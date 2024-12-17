@@ -14,3 +14,12 @@ qinghuaz@stu.edu.cn
 
 by Qinghua Zhang, July. 8, 2023.
 
+@article{zhang2024quaternion,
+  title={Quaternion weighted Schatten p-norm minimization for color image restoration with convergence guarantee},
+  author={Zhang, Qinghua and He, Liangtian and Wang, Yilun and Deng, Liang-Jian and Liu, Jun},
+  journal={Signal Processing},
+  volume={218},
+  pages={109382},
+  year={2024},
+  publisher={Elsevier}
+}
