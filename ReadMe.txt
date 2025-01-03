@@ -15,6 +15,7 @@ qhzhang@mail.bnu.edu.cn
 
 by Qinghua Zhang, July. 8, 2023.
 
+Please cite our paper if you use our code:
 @article{zhang2024quaternion,
   title={Quaternion weighted Schatten p-norm minimization for color image restoration with convergence guarantee},
   author={Zhang, Qinghua and He, Liangtian and Wang, Yilun and Deng, Liang-Jian and Liu, Jun},
