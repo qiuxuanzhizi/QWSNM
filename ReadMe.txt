@@ -1,5 +1,3 @@
-# QWSNM
-
 This is the code of ''Qinghua Zhang, Liangtian He, Yilun Wang, Liangjian Deng, 
 Jun Liu, Quaternion Weighted Schatten p-norm Minimization for Color Image Restoration with Convergence Guarantee''.
 
@@ -26,7 +24,7 @@ by Qinghua Zhang, July. 8, 2023.
   publisher={Elsevier}
 }
 
-## Related work: 
+Related work: 
 1. Guo, Y., Chen, G., Zeng, T., Jin, Q., & Ng, M. K. P. (2025). Quaternion Nuclear Norm Minus Frobenius Norm Minimization for color image reconstruction. Pattern Recognition, 158, 110986. https://www.sciencedirect.com/science/article/pii/S0031320324007374
 github repository: https://github.com/Huang-chao-yan/QWNNM
 2. Huang C, Li Z, Liu Y, et al. Quaternion-based weighted nuclear norm minimization for color image restoration[J]. Pattern Recognition, 2022, 128: 108665. 
