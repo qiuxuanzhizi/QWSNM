@@ -1,3 +1,5 @@
+# QWSNM
+
 This is the code of ''Qinghua Zhang, Liangtian He, Yilun Wang, Liangjian Deng, 
 Jun Liu, Quaternion Weighted Schatten p-norm Minimization for Color Image Restoration with Convergence Guarantee''.
 
