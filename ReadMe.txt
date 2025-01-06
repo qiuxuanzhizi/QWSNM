@@ -31,5 +31,5 @@ Related work:
 github repository: https://github.com/Huang-chao-yan/QWNNM
 2. Huang C, Li Z, Liu Y, et al. Quaternion-based weighted nuclear norm minimization for color image restoration[J]. Pattern Recognition, 2022, 128: 108665. 
 https://www.sciencedirect.com/science/article/pii/S0031320322001467
-githu repository: https://github.com/Yuguo-math/QNMF
+github repository: https://github.com/Yuguo-math/QNMF
 
